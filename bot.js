@@ -16,3 +16,5 @@ bot.on("guildMemberAdd", member => {
 bot.on("guildMemberRemove", (member) => {
   member.guild.channels.get('405769057065762826').send(`**${member.user.username}** Another Nibba Left `)
 });
+
+bot.login(token)
