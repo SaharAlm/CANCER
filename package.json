@@ -1,0 +1,23 @@
+{
+  "name": "cancer",
+  "version": "1.0.0",
+  "description": "lol",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "lol"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Twins1/CANCER.git"
+  },
+  "author": "Twins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Twins1/CANCER/issues"
+  },
+  "homepage": "https://github.com/Twins1/CANCER#readme"
+}
