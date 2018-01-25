@@ -8,7 +8,7 @@ var bot = new Discord.Client();
 
 // need
 
-bot.on('ready', msg {
+bot.on('ready', function(msg) {
   msg.channel.send("bitch im here")
 });
 
