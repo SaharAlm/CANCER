@@ -14,10 +14,9 @@ bot.on('ready', function() {
 });
 
 bot.on("guildMemberAdd", member => {
-  var role = member.guild.roles.find('name', 'User')
-
-  member.addRole(role)
-
+  if (member.guild.id === '405753208829378560') {
+    member.addRole('405754175113265152', 'Joined in the 90\'s')
+  }
   member.guild.channels.get('405769057065762826').send(`**${member.user.username}** Another Nibba join`)
 });
 
