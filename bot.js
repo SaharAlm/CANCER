@@ -9,8 +9,8 @@ var bot = new Discord.Client();
 
 // need
 
-bot.on('ready', function(msg, channel) {
-  msg.channel.send("bitch im here")
+bot.on('ready', function() {
+  console.log("fuck me")
 });
 
 bot.on("guildMemberAdd", member => {
