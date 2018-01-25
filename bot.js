@@ -9,7 +9,7 @@ var bot = new Discord.Client();
 
 // need
 
-bot.on('ready', function(msg) {
+bot.on('ready', function(msg, channel) {
   msg.channel.send("bitch im here")
 });
 
