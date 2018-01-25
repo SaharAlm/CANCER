@@ -6,6 +6,7 @@ const prefix = settings.prefix;
 // --var--
 var bot = new Discord.Client();
 
+
 // need
 
 bot.on('ready', function(msg) {
