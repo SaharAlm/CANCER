@@ -11,6 +11,7 @@ var bot = new Discord.Client();
 
 bot.on('ready', function() {
   console.log("fuck me")
+  bot.setGame("come on suckers pay me i want suck")
 });
 
 bot.on("guildMemberAdd", member => {
